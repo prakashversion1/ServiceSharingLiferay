@@ -25,3 +25,4 @@ utility/dependency-reduced-pom.xml
 *.jasper
 bin/*
 */bin/*
+
