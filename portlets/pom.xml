@@ -1,0 +1,18 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>com.test.serviceExample</groupId>
+		<artifactId>ServiceExample</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
+	</parent>
+	<groupId>com.test.portlets</groupId>
+	<artifactId>portlets</artifactId>
+	<packaging>pom</packaging>
+	<modules>
+		<module>Employee-portlet</module>
+		<module>Employee-portlet-service</module>
+		<module>ManageOrganization-portlet</module>
+		<module>ManageOrganization-portlet-service</module>
+	</modules>
+</project>

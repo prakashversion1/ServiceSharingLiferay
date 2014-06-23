@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping default-lazy="false" auto-import="false">
+	<import class="com.test.portlets.model.ManageOrganization" />
+	<class name="com.test.portlets.model.impl.ManageOrganizationImpl" table="ManageOrganization_ManageOrganization">
+		<cache usage="read-write" />
+		<id name="sbId" type="long">
+			<generator class="assigned" />
+		</id>
+		<property name="sbName" type="com.liferay.portal.dao.orm.hibernate.StringType" />
+	</class>
+</hibernate-mapping>

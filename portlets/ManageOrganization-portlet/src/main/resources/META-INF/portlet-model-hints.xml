@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+
+<model-hints>
+	<model name="com.test.portlets.model.ManageOrganization">
+		<field name="sbId" type="long" />
+		<field name="sbName" type="String" />
+	</model>
+</model-hints>

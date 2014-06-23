@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+
+<model-hints>
+	<model name="com.test.portlets.model.Employee">
+		<field name="employeeId" type="long" />
+		<field name="employeeName" type="String" />
+		<field name="employeeGender" type="String" />
+		<field name="sbId" type="long" />
+	</model>
+</model-hints>

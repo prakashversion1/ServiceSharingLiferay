@@ -1,0 +1,13 @@
+<!DOCTYPE service-builder PUBLIC "-//Liferay//DTD Service Builder 6.2.0//EN" "http://www.liferay.com/dtd/liferay-service-builder_6_2_0.dtd">
+
+<service-builder package-path="com.test.portlets">
+	<namespace>ManageOrganization</namespace>
+	<entity name="ManageOrganization" local-service="true"
+		remote-service="false">
+		<column name="sbId" type="long" primary="true" />
+		<column name="sbName" type="String" />
+		<order by="asc">
+			<order-column name="sbId" />
+		</order>
+	</entity>
+</service-builder>

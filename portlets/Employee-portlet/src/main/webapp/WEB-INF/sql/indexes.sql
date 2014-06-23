@@ -1,0 +1,1 @@
+create index IX_D575C2A3 on Employee_Employee (sbId);
